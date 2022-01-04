@@ -1,0 +1,38 @@
+{
+    "Actions": [
+        {
+            "Icon": "resources/images/actionIcon",
+            "Name": "Toast Notification",
+            "States": [
+                {
+                  "Image": "resources/images/Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Toast Notification",
+            "PropertyInspectorPath": "PI/ToastNotification_pi.html",
+            "UUID": "com.krabs.windowsgizmos.ToastNotification"
+        }
+    ],
+
+    "SDKVersion": 2,
+    "Author": "Krabs",
+    "Category": "Krabs - Windows Gizmos",
+    "CategoryIcon": "resources/images/categoryIcon",
+    "CodePathWin": "bin/streamdeck-batplug.exe",
+    "Description": "Windows Gizmos.",
+    "Name": "template",
+    "Icon": "resources/images/pluginIcon",
+    "URL": "https://www.krabs.me/streamdeck-plugins",
+    "Version": "1.0.1",
+    "OS": [
+        { "Platform": "windows", "MinimumVersion": "10" }
+    ],
+    "Software": { "MinimumVersion": "5.0" },
+    "DefaultWindowSize": [436, 768]
+}

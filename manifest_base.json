@@ -1,0 +1,35 @@
+{
+  "Actions": [
+    {
+      "Icon": "",
+      "Name": "",
+      "States": [
+        {
+          "Image": ""
+        }
+      ],
+      "Tooltip": "",
+      "PropertyInspectorPath": "inspector/xxx.html",
+      "UUID": ""
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "",
+  "CodePathWin": "bin/streamdeck-batplug.exe",
+  "Description": "",
+  "Category": "",
+  "CategoryIcon": "",
+  "Name": "",
+  "Icon": "",
+  "URL": "",
+  "Version": "",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "4.1"
+  }
+}
