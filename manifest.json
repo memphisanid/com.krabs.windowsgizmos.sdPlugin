@@ -1,11 +1,11 @@
 {
     "Actions": [
         {
-            "Icon": "resources/images/com.krabs.windowsgizmos.ToastNotification_actionIcon",
+            "Icon": "resources/images/ToastNotification_actionIcon",
             "Name": "Toast Notification",
             "States": [
                 {
-                  "Image": "resources/images/com.krabs.windowsgizmos.ToastNotification_Icon",
+                  "Image": "resources/images/ToastNotification_Icon",
                   "TitleAlignment": "center",
                   "FontFamily": "Arial",
                   "TitleColor": "#ffffff",
@@ -19,11 +19,11 @@
             "UUID": "com.krabs.windowsgizmos.ToastNotification"
         },
         {
-            "Icon": "resources/images/com.krabs.windowsgizmos.ClearAllToastNotifications_actionIcon",
+            "Icon": "resources/images/ClearAllToastNotifications_actionIcon",
             "Name": "Clear All Notifications",
             "States": [
                 {
-                  "Image": "resources/images/com.krabs.windowsgizmos.ClearAllToastNotifications_Icon",
+                  "Image": "resources/images/ClearAllToastNotifications_Icon",
                   "TitleAlignment": "center",
                   "FontFamily": "Arial",
                   "TitleColor": "#ffffff",
@@ -37,11 +37,11 @@
             "UUID": "com.krabs.windowsgizmos.ClearAllToastNotifications"
         },
         {
-            "Icon": "resources/images/com.krabs.windowsgizmos.WindowsDictation_actionIcon",
+            "Icon": "resources/images/WindowsDictation_actionIcon",
             "Name": "Windows Speech Recognition Dictation / Voice Commands",
             "States": [
                 {
-                  "Image": "resources/images/com.krabs.windowsgizmos.WindowsDictation_Icon",
+                  "Image": "resources/images/WindowsDictation_Icon",
                   "TitleAlignment": "center",
                   "FontFamily": "Arial",
                   "TitleColor": "#ffffff",
@@ -61,8 +61,8 @@
     "Category": "Krabs - Windows Gizmos",
     "CategoryIcon": "resources/images/categoryIcon",
     "CodePathWin": "bin/streamdeck-batplug.exe",
-    "Description": "Windows Gizmos.",
-    "Name": "template",
+    "Description": "Windows Gizmos is a collection of tools for Windows 10+.",
+    "Name": "Windows Gizmos",
     "Icon": "resources/images/pluginIcon",
     "URL": "https://www.krabs.me/streamdeck-plugins",
     "Version": "1.0.4",
