@@ -35,6 +35,24 @@
             "Tooltip": "Clear All Notifications (Win 11)",
             "PropertyInspectorPath": "PI/ClearAllToastNotifications_pi.html",
             "UUID": "com.krabs.windowsgizmos.ClearAllToastNotifications"
+        },
+        {
+            "Icon": "resources/images/com.krabs.windowsgizmos.WindowsDictation_actionIcon",
+            "Name": "Windows Speech Recognition Dictation / Voice Commands",
+            "States": [
+                {
+                  "Image": "resources/images/com.krabs.windowsgizmos.WindowsDictation_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Windows Speech Recognition Dictation / Voice Commands",
+            "PropertyInspectorPath": "PI/WindowsDictation_pi.html",
+            "UUID": "com.krabs.windowsgizmos.WindowsDictation"
         }
     ],
 
@@ -47,7 +65,7 @@
     "Name": "template",
     "Icon": "resources/images/pluginIcon",
     "URL": "https://www.krabs.me/streamdeck-plugins",
-    "Version": "1.0.2",
+    "Version": "1.0.3",
     "OS": [
         { "Platform": "windows", "MinimumVersion": "10" }
     ],

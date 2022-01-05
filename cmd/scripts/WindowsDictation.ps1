@@ -40,12 +40,4 @@ Function Win ($Key)
 #win -key N
 
 Add-Type -AssemblyName System.Windows.Forms
-
-start ms-actioncenter:
-Start-Sleep -MilliSeconds 500
-[System.Windows.Forms.SendKeys]::SendWait("+{TAB}")
-[System.Windows.Forms.SendKeys]::SendWait("+{TAB}")
-[System.Windows.Forms.SendKeys]::SendWait(" ")
-# remove the Start-Sleep if everything works
-# Start-Sleep -MilliSeconds 1000
-[System.Windows.Forms.SendKeys]::SendWait("{ESC}")
+win -key H

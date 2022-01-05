@@ -5,42 +5,16 @@
         <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
         <meta name=apple-mobile-web-app-capable content=yes>
         <meta name=apple-mobile-web-app-status-bar-style content=black>
-        <title>Windows Gizmos - Toast Notification</title>
+        <title>Windows Gizmos - Windows Speech Recognition Dictation / Voice Commands</title>
         <link rel="stylesheet" href="../resources/css/sdpi.css">
     </head>
     <body>
         <div class="sdpi-wrapper">
-          <div class="sdpi-heading">Configuration</div>
-            <div class="sdpi-item">
-               <div class="sdpi-item-label">Toast Title</div>
-               <input id="vKrabs_ToastTitle" class="sdpi-item-value" type="text"
-                  placeholder="Type your Toast Title here" value=""
-                  required />
-            </div>
-            <div class="sdpi-item">
-               <div class="sdpi-item-label">Toast Text Area Title</div>
-               <input id="vKrabs_ToastTextTitle" class="sdpi-item-value" type="text"
-                  placeholder="Type your Text Title here" value=""
-                  required />
-            </div>
-            <div type="textarea" class="sdpi-item">
-                <div class="sdpi-item-label up20">Toast Text (use \n for a new line)</div>
-                <div class="sdpi-item-value textarea">
-                  <textarea type="textarea" maxlength="1000" id="vKrabs_ToastText" class="three-lines" placeholder="Type your text here"></textarea>
-                </div>
-            </div>
-
-            <div class="sdpi-heading">Minutes the Toast will stay in Notification Area</div>
-            <div class="sdpi-item">
-               <div class="sdpi-item-label">Minutes</div>
-               <input id="vKrabs_ToastTime" class="sdpi-item-value" type="number" value="" />
-            </div>
-            <div class="sdpi-item">
+          <div class="sdpi-item">
               <details class="message info">
-                <summary>Set to -1 to keep until dismissed</summary>
+                <summary>Press once to open. Press again to activate. Press again to de-activate. (You must be in an area where text can be typed unless you have setup speech recognition.)</summary>
               </details>
-            </div>
-
+          </div>
             <div class="sdpi-heading">Support & Information</div>
             <div class="sdpi-item">
                 <details class="message info20">
