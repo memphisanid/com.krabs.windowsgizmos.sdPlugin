@@ -125,6 +125,60 @@
             "Tooltip": "Magnifier - Exit",
             "PropertyInspectorPath": "PI/Magnifier_pi.html",
             "UUID": "com.krabs.windowsgizmos.MagnifierZoomQuit"
+        },
+        {
+            "Icon": "resources/images/MoveAppToMonitorLeft_actionIcon",
+            "Name": "Move Application To Monitor On - Left",
+            "States": [
+                {
+                  "Image": "resources/images/MoveAppToMonitorLeft_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Move Application To Monitor On - Left",
+            "PropertyInspectorPath": "PI/MoveAppToMonitor_pi.html",
+            "UUID": "com.krabs.windowsgizmos.MoveAppToMonitorLeft"
+        },
+        {
+            "Icon": "resources/images/MoveAppToMonitorRight_actionIcon",
+            "Name": "Move Application To Monitor On - Right",
+            "States": [
+                {
+                  "Image": "resources/images/MoveAppToMonitorRight_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Move Application To Monitor On - Right",
+            "PropertyInspectorPath": "PI/MoveAppToMonitor_pi.html",
+            "UUID": "com.krabs.windowsgizmos.MoveAppToMonitorRight"
+        },
+        {
+            "Icon": "resources/images/ToggleAllExceptActiveWindow_actionIcon",
+            "Name": "Minimize All Application Except The Active Application - Toggle",
+            "States": [
+                {
+                  "Image": "resources/images/ToggleAllExceptActiveWindow_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": false,
+            "Tooltip": "Minimize All Application Except The Active Application - Toggle",
+            "PropertyInspectorPath": "PI/ToggleAllExceptActiveWindow_pi.html",
+            "UUID": "com.krabs.windowsgizmos.ToggleAllExceptActiveWindow"
         }
     ],
 
