@@ -53,6 +53,78 @@
             "Tooltip": "Windows Speech Recognition Dictation / Voice Commands",
             "PropertyInspectorPath": "PI/WindowsDictation_pi.html",
             "UUID": "com.krabs.windowsgizmos.WindowsDictation"
+        },
+        {
+            "Icon": "resources/images/RecycleBin_actionIcon",
+            "Name": "Empty Recycle Bin",
+            "States": [
+                {
+                  "Image": "resources/images/RecycleBin_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Empty Recycle Bin",
+            "PropertyInspectorPath": "PI/RecycleBin_pi.html",
+            "UUID": "com.krabs.windowsgizmos.RecycleBin"
+        },
+        {
+            "Icon": "resources/images/MagnifierZoomIn_actionIcon",
+            "Name": "Magnifier - Zoom In",
+            "States": [
+                {
+                  "Image": "resources/images/MagnifierZoomIn_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Magnifier - Zoom In",
+            "PropertyInspectorPath": "PI/Magnifier_pi.html",
+            "UUID": "com.krabs.windowsgizmos.MagnifierZoomIn"
+        },
+        {
+            "Icon": "resources/images/MagnifierZoomOut_actionIcon",
+            "Name": "Magnifier - Zoom Out",
+            "States": [
+                {
+                  "Image": "resources/images/MagnifierZoomOut_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Magnifier - Zoom Out",
+            "PropertyInspectorPath": "PI/Magnifier_pi.html",
+            "UUID": "com.krabs.windowsgizmos.MagnifierZoomOut"
+        },
+        {
+            "Icon": "resources/images/MagnifierZoomQuit_actionIcon",
+            "Name": "Magnifier - Exit",
+            "States": [
+                {
+                  "Image": "resources/images/MagnifierZoomQuit_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Magnifier - Exit",
+            "PropertyInspectorPath": "PI/Magnifier_pi.html",
+            "UUID": "com.krabs.windowsgizmos.MagnifierZoomQuit"
         }
     ],
 
