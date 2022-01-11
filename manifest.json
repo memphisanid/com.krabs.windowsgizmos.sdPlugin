@@ -191,7 +191,7 @@
     "Name": "Windows Gizmos",
     "Icon": "resources/images/pluginIcon",
     "URL": "https://www.krabs.me/streamdeck-plugins",
-    "Version": "1.0.5",
+    "Version": "1.0.6",
     "OS": [
         { "Platform": "windows", "MinimumVersion": "10" }
     ],
