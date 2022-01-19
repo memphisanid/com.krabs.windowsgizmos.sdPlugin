@@ -470,7 +470,7 @@
         },
         {
             "Icon": "resources/images/VirtualDesktopRight_actionIcon",
-            "Name": "Virtual Desktop - Right",
+            "Name": "Virtual Desktop - Next Right",
             "States": [
                 {
                   "Image": "resources/images/VirtualDesktopRight_Icon",
@@ -482,13 +482,13 @@
                 }
               ],
             "SupportedInMultiActions": true,
-            "Tooltip": "Virtual Desktop - Right",
+            "Tooltip": "Virtual Desktop - Next Right",
             "PropertyInspectorPath": "PI/Generic_pi.html",
             "UUID": "com.krabs.windowsgizmos.VirtualDesktopRight"
         },
         {
             "Icon": "resources/images/VirtualDesktopLeft_actionIcon",
-            "Name": "Virtual Desktop - Left",
+            "Name": "Virtual Desktop - Next Left",
             "States": [
                 {
                   "Image": "resources/images/VirtualDesktopLeft_Icon",
@@ -500,7 +500,7 @@
                 }
               ],
             "SupportedInMultiActions": true,
-            "Tooltip": "Virtual Desktop - Left",
+            "Tooltip": "Virtual Desktop - Next Left",
             "PropertyInspectorPath": "PI/Generic_pi.html",
             "UUID": "com.krabs.windowsgizmos.VirtualDesktopLeft"
         },
@@ -569,7 +569,7 @@
     "Name": "Windows Gizmos",
     "Icon": "resources/images/pluginIcon",
     "URL": "https://www.krabs.me/streamdeck-plugins",
-    "Version": "1.0.6",
+    "Version": "1.0.7",
     "OS": [
         { "Platform": "windows", "MinimumVersion": "10" }
     ],
