@@ -49,7 +49,7 @@
                   "FontSize": "9"
                 }
               ],
-            "SupportedInMultiActions": true,
+            "SupportedInMultiActions": false,
             "Tooltip": "Windows Speech Recognition Dictation / Voice Commands",
             "PropertyInspectorPath": "PI/WindowsDictation_pi.html",
             "UUID": "com.krabs.windowsgizmos.WindowsDictation"
@@ -69,7 +69,7 @@
               ],
             "SupportedInMultiActions": true,
             "Tooltip": "Empty Recycle Bin",
-            "PropertyInspectorPath": "PI/RecycleBin_pi.html",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
             "UUID": "com.krabs.windowsgizmos.RecycleBin"
         },
         {
@@ -87,7 +87,7 @@
               ],
             "SupportedInMultiActions": true,
             "Tooltip": "Magnifier - Zoom In",
-            "PropertyInspectorPath": "PI/Magnifier_pi.html",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
             "UUID": "com.krabs.windowsgizmos.MagnifierZoomIn"
         },
         {
@@ -105,7 +105,7 @@
               ],
             "SupportedInMultiActions": true,
             "Tooltip": "Magnifier - Zoom Out",
-            "PropertyInspectorPath": "PI/Magnifier_pi.html",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
             "UUID": "com.krabs.windowsgizmos.MagnifierZoomOut"
         },
         {
@@ -123,7 +123,7 @@
               ],
             "SupportedInMultiActions": true,
             "Tooltip": "Magnifier - Exit",
-            "PropertyInspectorPath": "PI/Magnifier_pi.html",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
             "UUID": "com.krabs.windowsgizmos.MagnifierZoomQuit"
         },
         {
@@ -141,7 +141,7 @@
               ],
             "SupportedInMultiActions": true,
             "Tooltip": "Move Application To Monitor On - Left",
-            "PropertyInspectorPath": "PI/MoveAppToMonitor_pi.html",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
             "UUID": "com.krabs.windowsgizmos.MoveAppToMonitorLeft"
         },
         {
@@ -159,7 +159,7 @@
               ],
             "SupportedInMultiActions": true,
             "Tooltip": "Move Application To Monitor On - Right",
-            "PropertyInspectorPath": "PI/MoveAppToMonitor_pi.html",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
             "UUID": "com.krabs.windowsgizmos.MoveAppToMonitorRight"
         },
         {
@@ -177,8 +177,386 @@
               ],
             "SupportedInMultiActions": false,
             "Tooltip": "Minimize All Application Except The Active Application - Toggle",
-            "PropertyInspectorPath": "PI/ToggleAllExceptActiveWindow_pi.html",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
             "UUID": "com.krabs.windowsgizmos.ToggleAllExceptActiveWindow"
+        },
+        {
+            "Icon": "resources/images/TaskManager_actionIcon",
+            "Name": "Task Manager",
+            "States": [
+                {
+                  "Image": "resources/images/TaskManager_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Opens Task Manager",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.TaskManager"
+        },
+        {
+            "Icon": "resources/images/ClipBoardBin_actionIcon",
+            "Name": "ClipBoard Bin / History",
+            "States": [
+                {
+                  "Image": "resources/images/ClipBoardBin_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "ClipBoard Bin / History",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.ClipBoardBin"
+        },
+        {
+            "Icon": "resources/images/ToggleDesktop_actionIcon",
+            "Name": "Toggle Desktop",
+            "States": [
+                {
+                  "Image": "resources/images/ToggleDesktop_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Toggle Desktop",
+            "PropertyInspectorPath": "PI/ToggleDesktop_pi.html",
+            "UUID": "com.krabs.windowsgizmos.ToggleDesktop"
+        },
+        {
+            "Icon": "resources/images/Shutdown_actionIcon",
+            "Name": "Shutdown",
+            "States": [
+                {
+                  "Image": "resources/images/Shutdown_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Shutdown",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.Shutdown"
+        },
+        {
+            "Icon": "resources/images/Cancel_actionIcon",
+            "Name": "Cancel Shutdown",
+            "States": [
+                {
+                  "Image": "resources/images/Cancel_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Cancel Shutdown",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.Cancel"
+        },
+        {
+            "Icon": "resources/images/Reboot_actionIcon",
+            "Name": "Reboot",
+            "States": [
+                {
+                  "Image": "resources/images/Reboot_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Reboot",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.Reboot"
+        },
+        {
+            "Icon": "resources/images/Sleep_actionIcon",
+            "Name": "Sleep",
+            "States": [
+                {
+                  "Image": "resources/images/Sleep_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Sleep",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.Sleep"
+        },
+        {
+            "Icon": "resources/images/Lock_actionIcon",
+            "Name": "Lock",
+            "States": [
+                {
+                  "Image": "resources/images/Lock_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Lock",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.Lock"
+        },
+        {
+            "Icon": "resources/images/SignOut_actionIcon",
+            "Name": "Sign Out",
+            "States": [
+                {
+                  "Image": "resources/images/SignOut_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Sign Out",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.SignOut"
+        },
+        {
+            "Icon": "resources/images/KillApplication_actionIcon",
+            "Name": "Close or Kill Application",
+            "States": [
+                {
+                  "Image": "resources/images/KillApplication_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Close or Kill Application",
+            "PropertyInspectorPath": "PI/KillApplication_pi.html",
+            "UUID": "com.krabs.windowsgizmos.KillApplication"
+        },
+        {
+            "Icon": "resources/images/OnScreenKeyboardToggle_actionIcon",
+            "Name": "On-Screen Keyboard Toggle",
+            "States": [
+                {
+                  "Image": "resources/images/OnScreenKeyboardToggle_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": false,
+            "Tooltip": "On-Screen Keyboard Toggle",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.OnScreenKeyboardToggle"
+        },
+        {
+            "Icon": "resources/images/RotateDisplayRight_actionIcon",
+            "Name": "Rotate Display Right",
+            "States": [
+                {
+                  "Image": "resources/images/RotateDisplayRight_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Rotate Display Right",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.RotateDisplayRight"
+        },
+        {
+            "Icon": "resources/images/RotateDisplayLeft_actionIcon",
+            "Name": "Rotate Display Left",
+            "States": [
+                {
+                  "Image": "resources/images/RotateDisplayLeft_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Rotate Display Left",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.RotateDisplayLeft"
+        },
+        {
+            "Icon": "resources/images/RotateDisplayUp_actionIcon",
+            "Name": "Rotate Display Up",
+            "States": [
+                {
+                  "Image": "resources/images/RotateDisplayUp_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Rotate Display Up",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.RotateDisplayUp"
+        },
+        {
+            "Icon": "resources/images/RotateDisplayDown_actionIcon",
+            "Name": "Rotate Display Down",
+            "States": [
+                {
+                  "Image": "resources/images/RotateDisplayDown_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Rotate Display Down",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.RotateDisplayDown"
+        },
+        {
+            "Icon": "resources/images/VirtualDesktopClose_actionIcon",
+            "Name": "Virtual Desktop - Close",
+            "States": [
+                {
+                  "Image": "resources/images/VirtualDesktopClose_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Virtual Desktop - Close",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.VirtualDesktopClose"
+        },
+        {
+            "Icon": "resources/images/VirtualDesktopRight_actionIcon",
+            "Name": "Virtual Desktop - Right",
+            "States": [
+                {
+                  "Image": "resources/images/VirtualDesktopRight_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Virtual Desktop - Right",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.VirtualDesktopRight"
+        },
+        {
+            "Icon": "resources/images/VirtualDesktopLeft_actionIcon",
+            "Name": "Virtual Desktop - Left",
+            "States": [
+                {
+                  "Image": "resources/images/VirtualDesktopLeft_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Virtual Desktop - Left",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.VirtualDesktopLeft"
+        },
+        {
+            "Icon": "resources/images/SnipAndSketchCapturePartOfScreen_actionIcon",
+            "Name": "Screenshot - Capture part of screen",
+            "States": [
+                {
+                  "Image": "resources/images/SnipAndSketchCapturePartOfScreen_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": false,
+            "Tooltip": "Screenshot - Capture part of the screen with Snip & Sketch",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.SnipAndSketchCapturePartOfScreen"
+        },
+        {
+            "Icon": "resources/images/ScreenshotFullScreenSave_actionIcon",
+            "Name": "Screenshot -  Capture full screen and save",
+            "States": [
+                {
+                  "Image": "resources/images/ScreenshotFullScreenSave_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": false,
+            "Tooltip": "Screenshot -  Capture the full screen and automatically save to Screenshots folder",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.ScreenshotFullScreenSave"
+        },
+        {
+            "Icon": "resources/images/EmojiPanel_actionIcon",
+            "Name": "Emoji Panel",
+            "States": [
+                {
+                  "Image": "resources/images/EmojiPanel_Icon",
+                  "TitleAlignment": "center",
+                  "FontFamily": "Arial",
+                  "TitleColor": "#ffffff",
+                  "FontStyle": "Bold",
+                  "FontSize": "9"
+                }
+              ],
+            "SupportedInMultiActions": false,
+            "Tooltip": "Emoji Panel",
+            "PropertyInspectorPath": "PI/Generic_pi.html",
+            "UUID": "com.krabs.windowsgizmos.EmojiPanel"
         }
     ],
 
