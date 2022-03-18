@@ -36,4 +36,4 @@ function Show-Notification {
     $Notifier = [Windows.UI.Notifications.ToastNotificationManager]::CreateToastNotifier("$ToastTag")
     $Notifier.Show($Toast);
 }
-Show-Notification $args[0] $args[1] $args[2] $args[3]
+Show-Notification $args[0] $args[1] $args[2] $args[3].Replace("\n", "`n")
