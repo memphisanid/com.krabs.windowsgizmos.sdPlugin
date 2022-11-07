@@ -557,7 +557,43 @@
             "Tooltip": "Emoji Panel",
             "PropertyInspectorPath": "PI/Generic_pi.html",
             "UUID": "com.krabs.windowsgizmos.EmojiPanel"
-        }
+        },
+        {
+          "Icon": "resources/images/hdr_actionIcon",
+          "Name": "HDR Toggle (All Monitors)",
+          "States": [
+              {
+                "Image": "resources/images/hdr_Icon",
+                "TitleAlignment": "center",
+                "FontFamily": "Arial",
+                "TitleColor": "#ffffff",
+                "FontStyle": "Bold",
+                "FontSize": "9"
+              }
+            ],
+          "SupportedInMultiActions": false,
+          "Tooltip": "HDR Toggle (All Supported Monitors)",
+          "PropertyInspectorPath": "PI/Generic_pi.html",
+          "UUID": "com.krabs.windowsgizmos.hdrtoggle"
+      },
+      {
+        "Icon": "resources/images/ToogleShowDesktopIcons_actionIcon",
+        "Name": "Show / Hide Desktop Icons",
+        "States": [
+            {
+              "Image": "resources/images/ToogleShowDesktopIcons_Icon",
+              "TitleAlignment": "center",
+              "FontFamily": "Arial",
+              "TitleColor": "#ffffff",
+              "FontStyle": "Bold",
+              "FontSize": "9"
+            }
+          ],
+        "SupportedInMultiActions": false,
+        "Tooltip": "Show / Hide Desktop Icons",
+        "PropertyInspectorPath": "PI/Generic_pi.html",
+        "UUID": "com.krabs.windowsgizmos.ToggleShowDesktopIcons"
+    }
     ],
 
     "SDKVersion": 2,
@@ -569,7 +605,7 @@
     "Name": "Windows Gizmos",
     "Icon": "resources/images/pluginIcon",
     "URL": "https://www.krabs.me/streamdeck-plugins",
-    "Version": "1.0.10",
+    "Version": "1.0.12",
     "OS": [
         { "Platform": "windows", "MinimumVersion": "10" }
     ],
