@@ -32,16 +32,13 @@ Add-Type -TypeDefinition $source -ReferencedAssemblies "System.Windows.Forms"
 
 Function Win ($Key)
 {
-    [KeyboardSend.KeyboardSend]::KeyDown("LWin, LAlt")
-    [KeyboardSend.KeyboardSend]::KeyDown("LAlt")
+    [KeyboardSend.KeyboardSend]::KeyDown("LWin")
     [System.Windows.Forms.SendKeys]::SendWait("$Key")
     [KeyboardSend.KeyboardSend]::KeyUp("LWin")
-    [KeyboardSend.KeyboardSend]::KeyUp("LAlt")
-
 }
 #win -key N
 
 Add-Type -AssemblyName System.Windows.Forms
 
 #Start-Sleep -MilliSeconds 1000
-win -key b
+win -key %b
