@@ -563,7 +563,15 @@
           "Name": "HDR Toggle (All Monitors)",
           "States": [
               {
-                "Image": "resources/images/hdr_Icon",
+                "Image": "resources/images/hdr_Icon_Off",
+                "TitleAlignment": "center",
+                "FontFamily": "Arial",
+                "TitleColor": "#ffffff",
+                "FontStyle": "Bold",
+                "FontSize": "9"
+              },
+              {
+                "Image": "resources/images/hdr_Icon_On",
                 "TitleAlignment": "center",
                 "FontFamily": "Arial",
                 "TitleColor": "#ffffff",
@@ -605,7 +613,7 @@
     "Name": "Windows Gizmos",
     "Icon": "resources/images/pluginIcon",
     "URL": "https://www.krabs.me/streamdeck-plugins",
-    "Version": "1.0.13",
+    "Version": "1.0.17",
     "OS": [
         { "Platform": "windows", "MinimumVersion": "10" }
     ],
