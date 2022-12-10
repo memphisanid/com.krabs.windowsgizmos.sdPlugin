@@ -32,10 +32,7 @@ Add-Type -TypeDefinition $source -ReferencedAssemblies "System.Windows.Forms"
 
 Function Win ($Key)
 {
-    [KeyboardSend.KeyboardSend]::KeyDown("LWin")
     [System.Windows.Forms.SendKeys]::SendWait("^%{RIGHT}")
-    [KeyboardSend.KeyboardSend]::KeyUp("LWin")
-
 }
 
 Add-Type -AssemblyName System.Windows.Forms
