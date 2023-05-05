@@ -673,6 +673,24 @@
       "Tooltip": "Run as Admin",
       "PropertyInspectorPath": "PI/RunAsAdmin_pi.html",
       "UUID": "com.krabs.windowsgizmos.RunAsAdmin"
+    },
+    {
+      "Icon": "resources/images/FocusWindow_actionIcon",
+      "Name": "Focus Window by Process Name",
+      "States": [
+          {
+            "Image": "resources/images/FocusWindow_icon",
+            "TitleAlignment": "center",
+            "FontFamily": "Arial",
+            "TitleColor": "#ffffff",
+            "FontStyle": "Bold",
+            "FontSize": "9"
+          }
+        ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Focus Window by Process Name",
+      "PropertyInspectorPath": "PI/FocusWindow_pi.html",
+      "UUID": "com.krabs.windowsgizmos.FocusWindow"
     }
     ],
 
@@ -685,7 +703,7 @@
     "Name": "Windows Gizmos",
     "Icon": "resources/images/pluginIcon",
     "URL": "https://www.krabs.me/streamdeck-plugins",
-    "Version": "1.0.21",
+    "Version": "1.0.22",
     "OS": [
         { "Platform": "windows", "MinimumVersion": "10" }
     ],
