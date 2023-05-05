@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+        <meta name=apple-mobile-web-app-capable content=yes>
+        <meta name=apple-mobile-web-app-status-bar-style content=black>
+        <title>Windows Gizmos - Change Window Mode by Name (Min, Max, Normal, Hide, Show, ...)</title>
+        <link rel="stylesheet" href="../resources/css/sdpi.css">
+    </head>
+    <body>
+        <div class="sdpi-wrapper">
+          <div class="sdpi-heading">Configuration</div>
+            <div type="checkbox" class="sdpi-item" id="single-check">
+                <div class="sdpi-item-label">Show Error Message Pop Ups</div>
+                <div class="sdpi-item-value">
+                    <div class="sdpi-item-child">
+                        <input id="vKrabs_ShowErrors" type="checkbox" value="true">
+                        <label for="vKrabs_ShowErrors" class="sdpi-item-label"><span></span>On</label>
+                    </div>
+                </div>
+            </div>
+            <div class="sdpi-item" style="padding-top: 24px;">
+               <div class="sdpi-item-label">Window Title</div>
+               <input id="vKrabs_WindowTitle" class="sdpi-item-value" type="text"
+                  placeholder="New Tab - Google Chrome" value=""
+                  required />
+            </div>
+            <div class="sdpi-item" style="padding-top: 24px; padding-bottom: 24px;">
+                <details>
+                  <summary>If there's no window name/title matching the given string, a window name/title beginning with the name/title supplied will be searched for.</summary>
+                </details>
+              </div>
+            <div class="sdpi-item">
+                <div class="sdpi-item-label">Change window mode to:</div>
+                <select class="sdpi-item-value select" id="vKrabs_WindowMode">
+                  <option value="normal">Normal</option>
+                  <option value="minimized">Minimize</option>
+                  <option value="maximized">Maximize</option>
+                  <option value="hidden">* Hide</option>
+                  <option value="show">* Show</option>
+                  <option value="force_minimized">* Force Minimize</option>
+                  <option value="force_maximized">* Force Maximize</option>
+                </select>
+            </div>
+            <div class="sdpi-item" style="padding-top: 24px; padding-bottom: 24px;">
+              <details>
+                  <summary>
+                    <span><u style="font-weight:bold !important;">Description of Window Modes</u></span><br><br>
+                    <span style="font-weight:bold !important;">Normal</span> - Window will display normally (Not minimized or maximized).<br><br>
+                    <span style="font-weight:bold !important;">Minimize</span> - Window will minimize.<br><br>
+                    <span style="font-weight:bold !important;">Maximize</span> - Window will maximize.<br><br>
+                    <span style="font-weight:bold !important;">* Hide</span> - Window will be hidden (It will no longer be able to be seen).<br><br>
+                    <span style="font-weight:bold !important;">* Show</span> - Window will be shown (This reverses the Hide action).<br><br>
+                    <span style="font-weight:bold !important;">* Force Minimize</span> - Window will be forced to minimize.<br><br>
+                    <span style="font-weight:bold !important;">* Force Maximize</span> - Window will be forced to maximize.<br><br>
+                    (<i>Use * modes at your own risk and only if you understand the possible consequences.</i>)
+                </summary>
+              </details>
+            </div>
+        </div>
+
+        <div class="sdpi-info-label hidden" style="top: -1000;" value=""></div>
+        <script src="../resources/scripts/common.js"></script>
+        <script src="../resources/scripts/common_pi.js"></script>
+        <script src="../resources/scripts/index_pi.js"></script>
+        <script>
+          var vDestinationURL;
+          var vDestinationTitle;
+          function openMeExternal(vDestinationURL, vDestinationTitle) {
+              window.xtWindow = window.open(vDestinationURL, vDestinationTitle);
+              setTimeout(() => window.xtWindow.postMessage('initPropertyInspector', '*'), 1500);
+          }
+        </script>
+    </body>
+    </html>

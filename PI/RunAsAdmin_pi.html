@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+        <meta name=apple-mobile-web-app-capable content=yes>
+        <meta name=apple-mobile-web-app-status-bar-style content=black>
+        <title>Windows Gizmos - Run As Admin</title>
+        <link rel="stylesheet" href="../resources/css/sdpi.css">
+    </head>
+    <body>
+        <div class="sdpi-wrapper">
+          <div class="sdpi-heading">Configuration</div>
+            <div class="sdpi-item" style="padding-top: 24px;">
+               <div class="sdpi-item-label">Command to Run as Administrator</div>
+               <input id="vKrabs_Command" class="sdpi-item-value" type="text"
+                  placeholder="chrome.exe" value=""
+                  required />
+            </div>
+            <div class="sdpi-item" style="padding-top: 24px;">
+                <div class="sdpi-item-label">Arguments to the command</div>
+                <input id="vKrabs_Arguments" class="sdpi-item-value" type="text"
+                   placeholder="google.com -incognito" value=""
+                   required />
+             </div>
+            <div class="sdpi-item" style="padding-top: 24px; padding-bottom: 24px;">
+                    <span style="font-weight:bold !important;">*** Use Extreme Caution When Running Any Command or Application As Administrator! ***</span>
+            </div>
+        </div>
+
+        <div class="sdpi-info-label hidden" style="top: -1000;" value=""></div>
+        <script src="../resources/scripts/common.js"></script>
+        <script src="../resources/scripts/common_pi.js"></script>
+        <script src="../resources/scripts/index_pi.js"></script>
+        <script>
+          var vDestinationURL;
+          var vDestinationTitle;
+          function openMeExternal(vDestinationURL, vDestinationTitle) {
+              window.xtWindow = window.open(vDestinationURL, vDestinationTitle);
+              setTimeout(() => window.xtWindow.postMessage('initPropertyInspector', '*'), 1500);
+          }
+        </script>
+    </body>
+    </html>

@@ -601,6 +601,78 @@
         "Tooltip": "Show / Hide Desktop Icons",
         "PropertyInspectorPath": "PI/Generic_pi.html",
         "UUID": "com.krabs.windowsgizmos.ToggleShowDesktopIcons"
+    },
+    {
+      "Icon": "resources/images/WindowMode_actionIcon",
+      "Name": "Change a Window's Display Mode by Name (Min, Max, Normal, Hide, Show, Force)",
+      "States": [
+          {
+            "Image": "resources/images/WindowMode_icon",
+            "TitleAlignment": "center",
+            "FontFamily": "Arial",
+            "TitleColor": "#ffffff",
+            "FontStyle": "Bold",
+            "FontSize": "9"
+          }
+        ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Change a Window's Display Mode by Name (Min, Max, Normal, Hide, Show, Force)",
+      "PropertyInspectorPath": "PI/WindowMode_pi.html",
+      "UUID": "com.krabs.windowsgizmos.WindowMode"
+    },
+    {
+      "Icon": "resources/images/SleepMonitor_actionIcon",
+      "Name": "Sleep Monitors",
+      "States": [
+          {
+            "Image": "resources/images/SleepMonitor_icon",
+            "TitleAlignment": "center",
+            "FontFamily": "Arial",
+            "TitleColor": "#ffffff",
+            "FontStyle": "Bold",
+            "FontSize": "9"
+          }
+        ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Sleep Monitors (Sleeps All Monitors)",
+      "PropertyInspectorPath": "PI/Generic_pi.html",
+      "UUID": "com.krabs.windowsgizmos.SleepMonitors"
+    },
+    {
+      "Icon": "resources/images/ShowWindowTitlesProcessNames_actionIcon",
+      "Name": "Show Active WindowTitles and ProcessNames",
+      "States": [
+          {
+            "Image": "resources/images/ShowWindowTitlesProcessNames_icon",
+            "TitleAlignment": "center",
+            "FontFamily": "Arial",
+            "TitleColor": "#ffffff",
+            "FontStyle": "Bold",
+            "FontSize": "9"
+          }
+        ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Show Active WindowTitles and ProcessNames",
+      "PropertyInspectorPath": "PI/Generic_pi.html.html",
+      "UUID": "com.krabs.windowsgizmos.ShowWindowTitlesProcessNames"
+    },
+    {
+      "Icon": "resources/images/RunAsAdmin_actionIcon",
+      "Name": "Run as Admin",
+      "States": [
+          {
+            "Image": "resources/images/RunAsAdmin_icon",
+            "TitleAlignment": "center",
+            "FontFamily": "Arial",
+            "TitleColor": "#ffffff",
+            "FontStyle": "Bold",
+            "FontSize": "9"
+          }
+        ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Run as Admin",
+      "PropertyInspectorPath": "PI/RunAsAdmin_pi.html",
+      "UUID": "com.krabs.windowsgizmos.RunAsAdmin"
     }
     ],
 
@@ -613,7 +685,7 @@
     "Name": "Windows Gizmos",
     "Icon": "resources/images/pluginIcon",
     "URL": "https://www.krabs.me/streamdeck-plugins",
-    "Version": "1.0.19",
+    "Version": "1.0.21",
     "OS": [
         { "Platform": "windows", "MinimumVersion": "10" }
     ],
