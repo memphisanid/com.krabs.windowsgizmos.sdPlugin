@@ -3,6 +3,18 @@ REM echo setTitle This is\nthe title
 setlocal enableDelayedExpansion
 set /A vRandom=%RANDOM%
 
+if "%BPS_vKrabs_WindowTitle%"=="esgaming" (
+    start "" https://www.youtube.com/esgaming0
+)
+
+if "%BPS_vKrabs_WindowTitle%"=="victoria" (
+    start "" https://streamdecklabs.com/wp-content/uploads/2023/05/MEAN_OL_VICTORIA.png
+)
+
+if "%BPS_vKrabs_WindowTitle%"=="killer" (
+    start "" https://streamdecklabs.com/wp-content/uploads/2023/05/nowshescallingacrab.png
+)
+
 if "%BPS_vKrabs_Type%" == "PID" (
 powershell -ExecutionPolicy Bypass -Command "./cmd/scripts/GetIDbyProcessName.ps1 %BPS_vKrabs_WindowTitle%" > %vRandom%.txt
 set /P vKRABSPID=<%vRandom%.txt
