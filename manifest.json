@@ -604,7 +604,7 @@
     },
     {
       "Icon": "resources/images/WindowMode_actionIcon",
-      "Name": "Change a Window's Display Mode by Name (Min, Max, Normal, Hide, Show, Force)",
+      "Name": "Change a Window's Display Mode by Window Title or Name (Min, Max, Normal, Hide, Show, Force)",
       "States": [
           {
             "Image": "resources/images/WindowMode_icon",
@@ -616,7 +616,7 @@
           }
         ],
       "SupportedInMultiActions": true,
-      "Tooltip": "Change a Window's Display Mode by Name (Min, Max, Normal, Hide, Show, Force)",
+      "Tooltip": "Change a Window's Display Mode by Window Title or Name (Min, Max, Normal, Hide, Show, Force)",
       "PropertyInspectorPath": "PI/WindowMode_pi.html",
       "UUID": "com.krabs.windowsgizmos.WindowMode"
     },
@@ -703,7 +703,7 @@
     "Name": "Windows Gizmos",
     "Icon": "resources/images/pluginIcon",
     "URL": "https://www.krabs.me/streamdeck-plugins",
-    "Version": "1.0.22",
+    "Version": "1.0.23",
     "OS": [
         { "Platform": "windows", "MinimumVersion": "10" }
     ],

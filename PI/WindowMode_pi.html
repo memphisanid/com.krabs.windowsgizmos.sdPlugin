@@ -12,7 +12,7 @@
         <div class="sdpi-wrapper">
           <div class="sdpi-heading">Configuration</div>
             <div type="checkbox" class="sdpi-item" id="single-check">
-                <div class="sdpi-item-label">Show Error Message Pop Ups</div>
+                <div class="sdpi-item-label" style="width: 200px !important; padding-top: 12px !important;">Show Error Message Pop Ups</div>
                 <div class="sdpi-item-value">
                     <div class="sdpi-item-child">
                         <input id="vKrabs_ShowErrors" type="checkbox" value="true">
@@ -20,19 +20,21 @@
                     </div>
                 </div>
             </div>
-            <div class="sdpi-item" style="padding-top: 24px;">
-               <div class="sdpi-item-label">Window Title</div>
+            <div class="sdpi-item" style="padding-top: 8px !important;">
+              <div class="sdpi-item-label">Select</div>
+              <select class="sdpi-item-value select" id="vKrabs_Type">
+                <option value="PID">Use Application Name</option>
+                <option value="TITLE">Use Window Title</option>
+              </select>
+          </div>
+            <div class="sdpi-item" style="padding-top: 8px !important;">
+               <div class="sdpi-item-label">Window</div>
                <input id="vKrabs_WindowTitle" class="sdpi-item-value" type="text"
-                  placeholder="New Tab - Google Chrome" value=""
+                  placeholder="" value=""
                   required />
             </div>
-            <div class="sdpi-item" style="padding-top: 24px; padding-bottom: 24px;">
-                <details>
-                  <summary>If there's no window name/title matching the given string, a window name/title beginning with the name/title supplied will be searched for. You may use the Show Active WindowTitles and ProcessNames action to get Process Names.</summary>
-                </details>
-              </div>
-            <div class="sdpi-item">
-                <div class="sdpi-item-label">Change window mode to:</div>
+            <div class="sdpi-item" style="padding-top: 8px !important;">
+                <div class="sdpi-item-label">Action</div>
                 <select class="sdpi-item-value select" id="vKrabs_WindowMode">
                   <option value="normal">Normal</option>
                   <option value="minimized">Minimize</option>
@@ -43,20 +45,22 @@
                   <option value="force_maximized">* Force Maximize</option>
                 </select>
             </div>
-            <div class="sdpi-item" style="padding-top: 24px; padding-bottom: 24px;">
-              <details>
-                  <summary>
-                    <span><u style="font-weight:bold !important;">Description of Window Modes</u></span><br><br>
-                    <span style="font-weight:bold !important;">Normal</span> - Window will display normally (Not minimized or maximized).<br><br>
-                    <span style="font-weight:bold !important;">Minimize</span> - Window will minimize.<br><br>
-                    <span style="font-weight:bold !important;">Maximize</span> - Window will maximize.<br><br>
-                    <span style="font-weight:bold !important;">* Hide</span> - Window will be hidden (It will no longer be able to be seen).<br><br>
-                    <span style="font-weight:bold !important;">* Show</span> - Window will be shown (This reverses the Hide action).<br><br>
-                    <span style="font-weight:bold !important;">* Force Minimize</span> - Window will be forced to minimize.<br><br>
-                    <span style="font-weight:bold !important;">* Force Maximize</span> - Window will be forced to maximize.<br><br>
-                    (<i>Use * modes at your own risk and only if you understand the possible consequences.</i>)
-                </summary>
-              </details>
+            <div class="sdpi-item" style="padding-top: 16px;">
+                <span>* If there's no window title matching the given string, a window title beginning with the title supplied will be matched and used.</span>
+            </div>
+            <div class="sdpi-item" style="padding-top: 16px;">
+                <span>* You may use the Show Active WindowTitles and ProcessNames action to get Process Names.</span>
+            </div>
+            <div style="padding-top: 32px; padding-bottom: 8px;">
+                    <span><u style="font-weight:bold !important;">Description of Window Modes</u><br><br></span>
+                    <span><span style="font-weight:bold !important;">Normal</span> - Window will display normally (Not minimized or maximized).<br><br></span>
+                    <span><span style="font-weight:bold !important;">Minimize</span> - Window will minimize.<br><br></span>
+                    <span><span style="font-weight:bold !important;">Maximize</span> - Window will maximize.<br><br></span>
+                    <span><span style="font-weight:bold !important;">* Hide</span> - Window will be hidden (It will no longer be able to be seen).<br><br></span>
+                    <span><span style="font-weight:bold !important;">* Show</span> - Window will be shown (This reverses the Hide action).<br><br></span>
+                    <span><span style="font-weight:bold !important;">* Force Minimize</span> - Window will be forced to minimize.<br><br></span>
+                    <span><span style="font-weight:bold !important;">* Force Maximize</span> - Window will be forced to maximize.<br><br></span>
+                    <span><span style="font-weight:bold !important;"></span>(<i>Use * modes at your own risk and only if you understand the possible consequences.</i>)</span>
             </div>
         </div>
 
