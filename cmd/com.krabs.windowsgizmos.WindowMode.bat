@@ -3,18 +3,6 @@ REM echo setTitle This is\nthe title
 setlocal enableDelayedExpansion
 set /A vRandom=%RANDOM%
 
-if "%BPS_vKrabs_WindowTitle%"=="esgaming" (
-    start "" https://www.youtube.com/esgaming0
-)
-
-if "%BPS_vKrabs_WindowTitle%"=="victoria" (
-    start "" https://streamdecklabs.com/wp-content/uploads/2023/05/MEAN_OL_VICTORIA.png
-)
-
-if "%BPS_vKrabs_WindowTitle%"=="killer" (
-    start "" https://streamdecklabs.com/wp-content/uploads/2023/05/nowshescallingacrab.png
-)
-
 if "%BPS_vKrabs_Type%" == "PID" (
 powershell -ExecutionPolicy Bypass -Command "./cmd/scripts/GetIDbyProcessName.ps1 %BPS_vKrabs_WindowTitle%" > %vRandom%.txt
 set /P vKRABSPID=<%vRandom%.txt
@@ -32,5 +20,5 @@ if %size% gtr 0 if %BPS_vKrabs_ShowErrors%==true (
 powershell -ExecutionPolicy Bypass -Command "& {Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('%vError%', 'Change Window Display Mode: Error', 'OK', [System.Windows.Forms.MessageBoxIcon]::ERROR);}"
 )
 
-if EXIST %vRandom%.txt DEL /F %vRandom%.txt
+if EXIST *.txt DEL /F *.txt
 EXIT
