@@ -42,3 +42,5 @@ Add-Type -AssemblyName System.Windows.Forms
 
 #Start-Sleep -MilliSeconds 1000
 win
+
+Start-Process (New-Object -ComObject Shell.Application).NameSpace('shell:Screenshots').Self.Path

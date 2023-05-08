@@ -1,6 +1,158 @@
 {
     "Actions": [
         {
+          "Icon": "resources/images/hdr_actionIcon",
+          "Name": "HDR Toggle (All Monitors)",
+          "States": [
+              {
+                "Image": "resources/images/hdr_Icon_Off",
+                "TitleAlignment": "center",
+                "FontFamily": "Arial",
+                "TitleColor": "#ffffff",
+                "FontStyle": "Bold",
+                "FontSize": "9"
+              },
+              {
+                "Image": "resources/images/hdr_Icon_On",
+                "TitleAlignment": "center",
+                "FontFamily": "Arial",
+                "TitleColor": "#ffffff",
+                "FontStyle": "Bold",
+                "FontSize": "9"
+              }
+            ],
+          "SupportedInMultiActions": false,
+          "Tooltip": "HDR Toggle (All Supported Monitors)",
+          "PropertyInspectorPath": "PI/Generic_pi.html",
+          "UUID": "com.krabs.windowsgizmos.hdrtoggle"
+        },
+        {
+          "Icon": "resources/images/ToogleShowDesktopIcons_actionIcon",
+          "Name": "Show / Hide Desktop Icons",
+          "States": [
+              {
+                "Image": "resources/images/ToogleShowDesktopIcons_Icon",
+                "TitleAlignment": "center",
+                "FontFamily": "Arial",
+                "TitleColor": "#ffffff",
+                "FontStyle": "Bold",
+                "FontSize": "9"
+              }
+            ],
+          "SupportedInMultiActions": false,
+          "Tooltip": "Show / Hide Desktop Icons",
+          "PropertyInspectorPath": "PI/Generic_pi.html",
+          "UUID": "com.krabs.windowsgizmos.ToggleShowDesktopIcons"
+      },
+      {
+        "Icon": "resources/images/WindowMode_actionIcon",
+        "Name": "Change a Window's Display Mode by Window Title or Name (Min, Max, Normal, Hide, Show, Force)",
+        "States": [
+            {
+              "Image": "resources/images/WindowMode_icon",
+              "TitleAlignment": "center",
+              "FontFamily": "Arial",
+              "TitleColor": "#ffffff",
+              "FontStyle": "Bold",
+              "FontSize": "9"
+            }
+          ],
+        "SupportedInMultiActions": true,
+        "Tooltip": "Change a Window's Display Mode by Window Title or Name (Min, Max, Normal, Hide, Show, Force)",
+        "PropertyInspectorPath": "PI/WindowMode_pi.html",
+        "UUID": "com.krabs.windowsgizmos.WindowMode"
+      },
+      {
+        "Icon": "resources/images/FocusWindow_actionIcon",
+        "Name": "Focus Window by Process Name",
+        "States": [
+            {
+              "Image": "resources/images/FocusWindow_icon",
+              "TitleAlignment": "center",
+              "FontFamily": "Arial",
+              "TitleColor": "#ffffff",
+              "FontStyle": "Bold",
+              "FontSize": "9"
+            }
+          ],
+        "SupportedInMultiActions": true,
+        "Tooltip": "Focus Window by Process Name",
+        "PropertyInspectorPath": "PI/FocusWindow_pi.html",
+        "UUID": "com.krabs.windowsgizmos.FocusWindow"
+      },
+      {
+        "Icon": "resources/images/ShowWindowTitlesProcessNames_actionIcon",
+        "Name": "Show Active WindowTitles and ProcessNames",
+        "States": [
+            {
+              "Image": "resources/images/ShowWindowTitlesProcessNames_icon",
+              "TitleAlignment": "center",
+              "FontFamily": "Arial",
+              "TitleColor": "#ffffff",
+              "FontStyle": "Bold",
+              "FontSize": "9"
+            }
+          ],
+        "SupportedInMultiActions": true,
+        "Tooltip": "Show Active WindowTitles and ProcessNames",
+        "PropertyInspectorPath": "PI/Generic_pi.html.html",
+        "UUID": "com.krabs.windowsgizmos.ShowWindowTitlesProcessNames"
+      },
+      {
+        "Icon": "resources/images/SleepMonitor_actionIcon",
+        "Name": "Sleep Monitors",
+        "States": [
+            {
+              "Image": "resources/images/SleepMonitor_icon",
+              "TitleAlignment": "center",
+              "FontFamily": "Arial",
+              "TitleColor": "#ffffff",
+              "FontStyle": "Bold",
+              "FontSize": "9"
+            }
+          ],
+        "SupportedInMultiActions": true,
+        "Tooltip": "Sleep Monitors (Sleeps All Monitors)",
+        "PropertyInspectorPath": "PI/Generic_pi.html",
+        "UUID": "com.krabs.windowsgizmos.SleepMonitors"
+      },
+      {
+        "Icon": "resources/images/RunAsAdmin_actionIcon",
+        "Name": "Run as Admin",
+        "States": [
+            {
+              "Image": "resources/images/RunAsAdmin_icon",
+              "TitleAlignment": "center",
+              "FontFamily": "Arial",
+              "TitleColor": "#ffffff",
+              "FontStyle": "Bold",
+              "FontSize": "9"
+            }
+          ],
+        "SupportedInMultiActions": true,
+        "Tooltip": "Run as Admin",
+        "PropertyInspectorPath": "PI/RunAsAdmin_pi.html",
+        "UUID": "com.krabs.windowsgizmos.RunAsAdmin"
+      },
+      {
+        "Icon": "resources/images/ReviewComputerReliability_actionIcon",
+        "Name": "Review your Computers Reliability and Problem History",
+        "States": [
+            {
+              "Image": "resources/images/ReviewComputerReliability_icon",
+              "TitleAlignment": "center",
+              "FontFamily": "Arial",
+              "TitleColor": "#ffffff",
+              "FontStyle": "Bold",
+              "FontSize": "9"
+            }
+          ],
+        "SupportedInMultiActions": true,
+        "Tooltip": "Review your Computers Reliability and Problem History",
+        "PropertyInspectorPath": "PI/Generic_pi.html",
+        "UUID": "com.krabs.windowsgizmos.ReviewComputerReliability"
+      },  
+      {
             "Icon": "resources/images/ToastNotification_actionIcon",
             "Name": "Toast Notification",
             "States": [
@@ -557,141 +709,7 @@
             "Tooltip": "Emoji Panel",
             "PropertyInspectorPath": "PI/Generic_pi.html",
             "UUID": "com.krabs.windowsgizmos.EmojiPanel"
-        },
-        {
-          "Icon": "resources/images/hdr_actionIcon",
-          "Name": "HDR Toggle (All Monitors)",
-          "States": [
-              {
-                "Image": "resources/images/hdr_Icon_Off",
-                "TitleAlignment": "center",
-                "FontFamily": "Arial",
-                "TitleColor": "#ffffff",
-                "FontStyle": "Bold",
-                "FontSize": "9"
-              },
-              {
-                "Image": "resources/images/hdr_Icon_On",
-                "TitleAlignment": "center",
-                "FontFamily": "Arial",
-                "TitleColor": "#ffffff",
-                "FontStyle": "Bold",
-                "FontSize": "9"
-              }
-            ],
-          "SupportedInMultiActions": false,
-          "Tooltip": "HDR Toggle (All Supported Monitors)",
-          "PropertyInspectorPath": "PI/Generic_pi.html",
-          "UUID": "com.krabs.windowsgizmos.hdrtoggle"
-      },
-      {
-        "Icon": "resources/images/ToogleShowDesktopIcons_actionIcon",
-        "Name": "Show / Hide Desktop Icons",
-        "States": [
-            {
-              "Image": "resources/images/ToogleShowDesktopIcons_Icon",
-              "TitleAlignment": "center",
-              "FontFamily": "Arial",
-              "TitleColor": "#ffffff",
-              "FontStyle": "Bold",
-              "FontSize": "9"
-            }
-          ],
-        "SupportedInMultiActions": false,
-        "Tooltip": "Show / Hide Desktop Icons",
-        "PropertyInspectorPath": "PI/Generic_pi.html",
-        "UUID": "com.krabs.windowsgizmos.ToggleShowDesktopIcons"
-    },
-    {
-      "Icon": "resources/images/WindowMode_actionIcon",
-      "Name": "Change a Window's Display Mode by Window Title or Name (Min, Max, Normal, Hide, Show, Force)",
-      "States": [
-          {
-            "Image": "resources/images/WindowMode_icon",
-            "TitleAlignment": "center",
-            "FontFamily": "Arial",
-            "TitleColor": "#ffffff",
-            "FontStyle": "Bold",
-            "FontSize": "9"
-          }
-        ],
-      "SupportedInMultiActions": true,
-      "Tooltip": "Change a Window's Display Mode by Window Title or Name (Min, Max, Normal, Hide, Show, Force)",
-      "PropertyInspectorPath": "PI/WindowMode_pi.html",
-      "UUID": "com.krabs.windowsgizmos.WindowMode"
-    },
-    {
-      "Icon": "resources/images/SleepMonitor_actionIcon",
-      "Name": "Sleep Monitors",
-      "States": [
-          {
-            "Image": "resources/images/SleepMonitor_icon",
-            "TitleAlignment": "center",
-            "FontFamily": "Arial",
-            "TitleColor": "#ffffff",
-            "FontStyle": "Bold",
-            "FontSize": "9"
-          }
-        ],
-      "SupportedInMultiActions": true,
-      "Tooltip": "Sleep Monitors (Sleeps All Monitors)",
-      "PropertyInspectorPath": "PI/Generic_pi.html",
-      "UUID": "com.krabs.windowsgizmos.SleepMonitors"
-    },
-    {
-      "Icon": "resources/images/ShowWindowTitlesProcessNames_actionIcon",
-      "Name": "Show Active WindowTitles and ProcessNames",
-      "States": [
-          {
-            "Image": "resources/images/ShowWindowTitlesProcessNames_icon",
-            "TitleAlignment": "center",
-            "FontFamily": "Arial",
-            "TitleColor": "#ffffff",
-            "FontStyle": "Bold",
-            "FontSize": "9"
-          }
-        ],
-      "SupportedInMultiActions": true,
-      "Tooltip": "Show Active WindowTitles and ProcessNames",
-      "PropertyInspectorPath": "PI/Generic_pi.html.html",
-      "UUID": "com.krabs.windowsgizmos.ShowWindowTitlesProcessNames"
-    },
-    {
-      "Icon": "resources/images/RunAsAdmin_actionIcon",
-      "Name": "Run as Admin",
-      "States": [
-          {
-            "Image": "resources/images/RunAsAdmin_icon",
-            "TitleAlignment": "center",
-            "FontFamily": "Arial",
-            "TitleColor": "#ffffff",
-            "FontStyle": "Bold",
-            "FontSize": "9"
-          }
-        ],
-      "SupportedInMultiActions": true,
-      "Tooltip": "Run as Admin",
-      "PropertyInspectorPath": "PI/RunAsAdmin_pi.html",
-      "UUID": "com.krabs.windowsgizmos.RunAsAdmin"
-    },
-    {
-      "Icon": "resources/images/FocusWindow_actionIcon",
-      "Name": "Focus Window by Process Name",
-      "States": [
-          {
-            "Image": "resources/images/FocusWindow_icon",
-            "TitleAlignment": "center",
-            "FontFamily": "Arial",
-            "TitleColor": "#ffffff",
-            "FontStyle": "Bold",
-            "FontSize": "9"
-          }
-        ],
-      "SupportedInMultiActions": true,
-      "Tooltip": "Focus Window by Process Name",
-      "PropertyInspectorPath": "PI/FocusWindow_pi.html",
-      "UUID": "com.krabs.windowsgizmos.FocusWindow"
-    }
+        }
     ],
 
     "SDKVersion": 2,
@@ -703,7 +721,7 @@
     "Name": "Windows Gizmos",
     "Icon": "resources/images/pluginIcon",
     "URL": "https://www.krabs.me/streamdeck-plugins",
-    "Version": "1.0.29",
+    "Version": "1.0.31",
     "OS": [
         { "Platform": "windows", "MinimumVersion": "10" }
     ],

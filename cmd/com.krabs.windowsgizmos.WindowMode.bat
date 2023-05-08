@@ -4,7 +4,7 @@ setlocal enableDelayedExpansion
 set /A vRandom=%RANDOM%
 
 if "%BPS_vKrabs_Type%" == "PID" (
-powershell -ExecutionPolicy Bypass -Command "./cmd/scripts/GetIDbyProcessName.ps1 %BPS_vKrabs_WindowTitle%" > %vRandom%.txt
+powershell -ExecutionPolicy Bypass -Command "./cmd/scripts/GetIDbyProcessName.ps1 ""%BPS_vKrabs_WindowTitle%""" > %vRandom%.txt
 set /P vKRABSPID=<%vRandom%.txt
 %CD%/cmd/scripts/windowMode.exe -pid !vKRABSPID! -mode %BPS_vKrabs_WindowMode% > %vRandom%.txt 2>&1
 set /P vError=<%vRandom%.txt
