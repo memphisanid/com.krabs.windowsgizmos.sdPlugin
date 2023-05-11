@@ -714,14 +714,14 @@
 
     "SDKVersion": 2,
     "Author": "Krabs",
-    "Category": "Krabs - Windows Gizmos",
+    "Category": "Windows Gizmos",
     "CategoryIcon": "resources/images/categoryIcon",
     "CodePathWin": "bin/streamdeck-batplug.exe",
     "Description": "Windows Gizmos is a collection of tools for Windows 10+.",
     "Name": "Windows Gizmos",
     "Icon": "resources/images/pluginIcon",
     "URL": "https://www.krabs.me/streamdeck-plugins",
-    "Version": "1.0.31",
+    "Version": "1.0.32",
     "OS": [
         { "Platform": "windows", "MinimumVersion": "10" }
     ],
